@@ -81,6 +81,7 @@ const Paste = () => {
  
   return (
     <div id='paste'>
+      <div>
    <div className="topPastes">
     <h1>Pastes</h1>
     <button id='reset'onClick={()=>{
@@ -230,7 +231,7 @@ const Paste = () => {
     
     </div>
    </div>
-   
+   </div>
     <footer>
         <div class="container">
             <p>&copy; 2025 Pastu. Made with ❤️ for the developer community.</p>
